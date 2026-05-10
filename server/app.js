@@ -14,6 +14,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://expert-session-booking-platform.vercel.app",
+      "https://expert-session-booking-platform-45xecnvn1.vercel.app",
     ],
     credentials: true,
   })
