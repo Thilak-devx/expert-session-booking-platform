@@ -116,12 +116,12 @@ function ExpertDetailPage() {
       </div>
 
       <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-        <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-white/85 p-6 shadow-soft">
-          <div className="overflow-hidden rounded-[28px]">
+        <div className="rounded-[32px] border border-slate-200 bg-white/85 p-6 shadow-soft">
+          <div className="flex h-[340px] items-center justify-center rounded-[28px] bg-slate-100/80 p-4 sm:h-[420px] lg:h-[480px]">
             <img
               src={expert.profileImage}
               alt={expert.name}
-              className="h-[300px] w-full rounded-[28px] object-cover object-top sm:h-[360px] lg:h-[420px]"
+              className="h-full w-full rounded-[24px] object-contain object-center"
             />
           </div>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
