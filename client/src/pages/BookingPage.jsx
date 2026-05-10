@@ -194,11 +194,13 @@ function BookingPage() {
 
       <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
         <aside className="rounded-[32px] border border-slate-200 bg-white/85 p-6 shadow-soft">
-          <img
-            src={expert.profileImage}
-            alt={expert.name}
-            className="h-56 w-full rounded-[28px] object-cover"
-          />
+          <div className="flex h-[340px] items-center justify-center rounded-[28px] bg-slate-100/80 p-4 sm:h-[420px] lg:h-[480px]">
+            <img
+              src={expert.profileImage}
+              alt={expert.name}
+              className="h-full w-full rounded-[24px] object-contain object-center"
+            />
+          </div>
           <p className="mt-5 text-sm font-semibold uppercase tracking-[0.28em] text-sky-600">
             {expert.category}
           </p>
